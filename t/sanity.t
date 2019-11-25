@@ -27,8 +27,7 @@ __DATA__
 --- request
 GET /echo
 --- response_body
-!!! [BEFORE
-hi]
+!!! [hi]
 
 
 
@@ -46,7 +45,7 @@ hi]
 --- request
 GET /echo
 --- response_body
-!!! [32]
+!!! []
 
 
 
@@ -107,7 +106,7 @@ GET /echo
 --- request
 GET /echo
 --- response_body
-!!! [BEF]
+!!! [hi]
 
 
 
